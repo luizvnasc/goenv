@@ -22,7 +22,7 @@ type Test struct {
 	Int32Field   int32   `env:"INT32FIELD"`
 	Int64Field   int64   `env:"INT64FIELD"`
 	Float32Field float32 `env:"FLOAT32FIELD"`
-	Float64Field float32 `env:"FLOAT64FIELD"`
+	Float64Field float64 `env:"FLOAT64FIELD"`
 	BoolField    bool    `env:"BOOLFIELD"`
 	NestedField  struct {
 		StrField     string  `env:"NSTRFIELD"`
