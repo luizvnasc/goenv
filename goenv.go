@@ -8,7 +8,7 @@ import (
 
 const tagName = "env"
 
-// Unmarshal the enviroment variables to a struct
+// Unmarshal the environment variables to a struct
 func Unmarshal(i interface{}) error {
 	t := reflect.TypeOf(i).Elem()
 	v := reflect.ValueOf(i).Elem()

@@ -7,6 +7,7 @@ import (
 	"github.com/luizvnasc/goenv"
 )
 
+//Project info struct
 type Project struct {
 	Name    string `env:"NAME"`
 	Version string `env:"VERSION"`
